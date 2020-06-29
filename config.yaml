@@ -1,0 +1,12 @@
+master:
+  server:
+  user:
+slaves:
+
+timeZone:
+scriptLocation:
+nfs:
+  server:
+  path:
+jenkins:
+  namespace: jenkins
