@@ -55,7 +55,7 @@ echo "setup nfs pv and pvc"
 
 current_dir=`pwd`
 cd ./master-only/jenkins
-bash InstallJenkins.sh $jenkins_namespace
+bash install_jenkins.sh $jenkins_namespace
 cd $current_dir
 wait
 
